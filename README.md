@@ -54,6 +54,10 @@ Grant your user access to the i2c bus:
 ```bash
 $ sudo usermod -aG i2c $USER
 ```
+### Install qt development environment
+```bash
+$ sudo apt install libqt4-dev
+```
 
 Reboot the system for the changes to take effect.
 
